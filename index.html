@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="img/frog5.png" type="image/png">  <!-- значек в браузере -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+  <!-- <link rel="stylesheet" href="css/fontello.css"> -->
+
+  <link rel="stylesheet" href="css/style.css"> <!-- Подключили стили-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Моё первое резюме</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center text-white">HTML-верстальщик (Junior Front-End) </h1>
+          </div>
+      
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+
+  <section class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-center text-uppercase color1 mb-5">Обо мне</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-md-6 col-sm-12">
+          <div class="itd_circle"><i class="fa-solid fa-user"></i></div>
+          <h5 class="text-center">Возраст - 26 лет</h5>
+          <div class="line"></div>
+        </div>
+        <div class="col-xl-4 col-md-6 col-sm-12">
+          <div class="itd_circle"><i class="fa-solid fa-city"></i></div>
+          <h5 class="text-center">Город -  Санкт-Петербург</h5>
+          <div class="line"></div>
+        </div>
+        <div class="col-xl-4 col-md-6 col-sm-12">
+          <div class="itd_circle"><i class="fa-solid fa-book"></i></div>
+          <h5 class="text-center">Образование - Высшее</h5>
+          <div class="line"></div>
+        </div>
+        <div class="col-xl-4 col-md-6 col-sm-12">
+          <div class="itd_circle"><i class="fa-sharp fa-solid fa-video"></i></div>
+          <h5 class="text-center">Хобби - Видеомонтаж и пазлы</h5>
+          <div class="line"></div>
+        </div>
+        <div class="col-xl-4 col-md-6 col-sm-12">
+          <div class="itd_circle"><i class="fa-solid fa-person-swimming"></i></div>
+          <h5 class="text-center">Спорт -  Плавание и велосипед</h5>
+          <div class="line"></div>
+        </div>
+        <div class="col-xl-4 col-md-6 col-sm-12">
+          <div class="itd_circle"><i class="fa-solid fa-heart-pulse"></i></div>
+          <h5 class="text-center">Особенность - Инвалид по слуху</h5>
+          <div class="line"></div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <section class="forwhom">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-center text-uppercase color2 mb-5">Навыки в Front-End</h2>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-md-6 col-sm-12">
+          <h5 class="text-center">HTML5</h5>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <h5 class="text-center">CSS3</h5>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <h5 class="text-center">JavaScript</h5>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <h5 class="text-center">Figma</h5>
+        </div>
+      </div>
+ 
+    </div>
+  </section>
+
+
+  <section class="shedule">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-center text-uppercase color1 mb-3">Опыт работы</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-ms-12">
+        <h4 class="text-center fw-bold mb-3 mt-3">"Единый Миграционный Центр"<br>февраль 2017 – ноябрь 2017</h4>
+        <!-- 1 аккордион -->
+        <div class="accordion accordion-flush" id="accordion1">
+          <!-- Открытый элемент -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading1">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1"
+                aria-expanded="true" aria-controls="collapse1">Должность</button>
+            </h2>
+            <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1"
+              data-bs-parent="#accordion1">
+              <div class="accordion-body fst-italic">Менеджер по персоналу.
+              </div>
+            </div>
+          </div>
+          <!-- Закрытые элементы -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading2">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">Обязанности</button>
+            </h2>
+            <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
+              data-bs-parent="#accordion1">
+              <div class="accordion-body fst-italic">- Оформление документов<br>
+                - Проведение мед. комиссии<br>
+                - Подача документов на получение патента для мигрантов</div>
+            </div>
+          </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-ms-12">
+            <h4 class="text-center fw-bold mb-3 mt-3">ООО "БРОКЕРС" недвижимость<br>ноябрь 2017 – февраль 2018</h4>
+            <!-- 1 аккордион -->
+            <div class="accordion accordion-flush" id="accordion2">
+              <!-- Открытый элемент -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading12">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12"
+                    aria-expanded="true" aria-controls="collapse12">Должность</button>
+                </h2>
+                <div id="collapse12" class="accordion-collapse collapse show" aria-labelledby="heading12"
+                  data-bs-parent="#accordion2">
+                  <div class="accordion-body fst-italic">Администратор офиса
+                  </div>
+                </div>
+              </div>
+              <!-- Закрытые элементы -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading13">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">Обязанности</button>
+                </h2>
+                <div id="collapse13" class="accordion-collapse collapse" aria-labelledby="heading13"
+                  data-bs-parent="#accordion2">
+                  <div class="accordion-body fst-italic">Подготовка документов</div>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-ms-12">
+        <h4 class="text-center fw-bold mb-3 mt-3">Аквапарк  «Родео Драйв» <br>июнь 2018 – август 2022</h4>
+        <!-- 1 аккордион -->
+        <div class="accordion accordion-flush" id="accordion3">
+          <!-- Открытый элемент -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading13">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse14"
+                aria-expanded="true" aria-controls="collapse14">Должность</button>
+            </h2>
+            <div id="collapse14" class="accordion-collapse collapse show" aria-labelledby="heading13"
+              data-bs-parent="#accordion3">
+              <div class="accordion-body fst-italic">Спасатель-инструктор
+              </div>
+            </div>
+          </div>
+          <!-- Закрытые элементы -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading14">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15">Обязанности</button>
+            </h2>
+            <div id="collapse15" class="accordion-collapse collapse" aria-labelledby="heading14"
+              data-bs-parent="#accordion3">
+              <div class="accordion-body fst-italic">- Обеспечение безопасности на воде для посетителей парка <br> 
+                - Контроль поведения посетителей на аттракционах повышенной  опасности</div>
+            </div>
+          </div>
+    </div>
+      </div>
+      </div>
+  </section>
+
+
+<section class="author">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text-center text-uppercase color1 mb-5">Дополнительные
+          сведения</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-9 col-lg-12">
+        <h4>Иностранные языки: Английский язык (базовый уровень)<br>
+          <br>
+          Увлечения: Плавание,пазлы,велосипед, кинофильмы, пешие прогулки.<br>
+          <br>
+          Личные качества: Упорство в достижении цели, усидчивость, нацеленность на результат, ответственность, желание обучаться.<br>
+          <br>
+          Не пью, не курю, не использую никакие психические стимуляторы, веду здоровый образ жизни.</h4>
+          <br>
+          <p>  К сожалению, окончание института совпало с началом пандемии, поэтому устроиться на работу по специальности не получилось – на рынке труда в моей сфере не было спроса на выпускников вообще. </p>
+          
+          <br>
+          <p>Затем в феврале 2021г. я получил инвалидность по слуху (3-я группа) и шансы на работу на производстве свелись к нулю (по здоровью мне было противопоказано работать в шумных местах, да и работодатели не хотели иметь потом проблем с органами по охране труда и инвалидности). На сегодняшний день я приобрел современный Швейцарский слуховой аппарат, позволяющий мне абсолютно беспроблемно общаться с окружающими.</p>
+          <br>
+          <p>В последнее время, пытаясь найти новую сферу применения своих способностей, я увлекся видеомонтажом: самостоятельно изучил программу SONY VEGAS 13, написал сценарий и снял 8-и серийный проект на Youtube (аналог шоу «Survivor»). Так же в 2022 году снял 2 сезон, в котором 11 серий. Сейчас в 2023 снимаю шоу "Холостяк". <a href="https://www.youtube.com/channel/UC2MlDLH7Z_hMr9OgaWpTmDA" target="_blank" class="btn btn btn-success"><i class="fa-brands fa-youtube"></i></a></p>
+          <br>
+          <p>На данный момент я изучил "Python: курс для начинающих" и "Поколение Python: курс для продвинутых". Но больше понравилось работать c HTML5, CSS3, JavaScript как "Front-End".
+  Ищу работу или стажировку. Готов учиться дальше. Спасибо за внимание.</p>
+
+        </div>
+        <div class="col-xl-3 col-lg-12 text-center">
+          <img src="img/RlSsb29ohgI.jpg" alt="мой фото" class="img-fiuid itd_img">
+
+
+        </div>
+    </div>
+  </div>
+</section>
+
+
+  <footer id="footer" 1>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <a href="https://www.youtube.com/embed//qNvUVRZvC40" target="_blank" class="btn btn btn-success"><i class="fa-brands fa-youtube"></i></a>
+          <a href="mailto:nnaarraa@mail.ru" target="_blank" class="btn btn-warning"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://t.me/jester0809" target="_blank" class="btn btn-info"> <i class="fa-brands fa-telegram"></i></a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Мой канал на ютубе</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class='embed-container'><iframe src='https://www.youtube.com/embed//qNvUVRZvC40' frameborder='0'
+              allowfullscreen></iframe></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
